@@ -1,0 +1,19 @@
+<header class="site-header" role="banner">
+  {% if page === 'home' %}<h1 class="visually-hidden">{{ brand }}</h1>{% endif %}
+
+  {# skip-nav-link: http://a11yproject.com/posts/skip-nav-links/ #}
+  <a href="#main" class="skip-link visually-hidden">Skip to main content</a>
+  <noscript>
+    <p class="enable-js">
+      To enjoy our website, you'll need to enable <b>JavaScript</b> in your web browser. Please <a href="http://enable-javascript.com/" target="_blank"><b>click here</b></a> to learn how.
+    </p>
+  </noscript>
+  <!--[if lt IE 9]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div class="container">
+    <button aria-controls="main-nav"><span class="visually-hidden">Menu</span></button> {# aria-expanded="true" #}
+    {% include './_logo.njk' %}
+  </div>
+</header>

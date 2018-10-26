@@ -1,0 +1,17 @@
+{% set page = 'home' %}
+{% extends "./parts/_layout.njk" %}
+
+{% block main %}
+<main id="main" role="main" tabindex="-1">
+  <ul class="typeface">
+    {% for item in typeface %}
+      <li class="c-{{ item | nameToUrl }}" style="font-family: '{{ item }}';">
+        <button class="i-expand"></button>
+        <div class="display" contenteditable>{{ item }}</div>
+        <div class="title" contenteditable>{{ get('title') }}</div>
+        <div class="p" contenteditable>{{ get('para') }}</div>
+      </li>
+    {% endfor %}
+  </ul>  
+</main>
+{% endblock %}

@@ -1,0 +1,14 @@
+// == typography ==
+
+body { 
+  // use system font
+  font-family: -apple-system, BlinkMacSystemFont, “Segoe UI”, Roboto, Helvetica, Arial, sans-serif; 
+
+  // removes the 300ms delay of click events when the user taps the screen
+  touch-action: manipulation; 
+}
+
+// heading-1 ~ 3
+// http://www.modularscale.com/?11&px&1.2&web&text
+// heading-4 ~ 6
+// http://www.modularscale.com/?12&px&1.2&web&text

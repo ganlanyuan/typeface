@@ -1,0 +1,39 @@
+// set min-width to 320
+html, body { min-width: 320px; }
+body { margin: 0; }
+
+:not(.full-article) {
+  li, dt, dd { margin: 0; }
+  > {
+    ul, ol, dl {
+      margin: 0;
+      padding: 0;
+    }
+    ul, ol { list-style: none; }
+    figure { margin: 0; }
+  }
+}
+
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+// remove the white space under images
+figure img, a > img { vertical-align: bottom; }
+
+// reset form styles
+label { cursor: pointer; }
+select { -webkit-appearance: none; }
+
+// reset link style
+a {
+  text-decoration: none;
+  color: inherit;
+  // &:focus {
+  //   outline: 1px solid;
+  //   outline-offset: .15em;
+  // }
+}
+main:focus { outline: none; }

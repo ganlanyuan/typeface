@@ -1,0 +1,21 @@
+.sass-cache
+*.map
+*.scssc
+*.swp
+*.DS_Store
+yarn-error.log
+package-lock.json
+.env
+
+/bower_components/
+/node_modules/
+
+# puppeteer
+/pptruser/
+/test/puppeteer/**/*.png
+
+# gemini
+/gemini/report/
+/gemini/screenshot/
+
+LICENSE
