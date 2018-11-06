@@ -9,11 +9,38 @@
 }
 
 body {
-  padding: 2em;
+  padding: 0 2em;
+}
+$nav-active-color: hsl(200, 90%, 85%);
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  background: hsla(0, 0%, 100%, 0.98);
+  li { display: inline-block; }
+  a {
+    display: block;
+    white-space: nowrap;
+    padding: 1em;
+    font-size: 14px;
+    transition: all $duration;
+    &:hover {
+      background: $nav-active-color;
+    }
+  }
+}
+@for $i from 1 through 15 {
+  [data-active="#{$i}"] .nav li:nth-child(#{$i}) {
+    background: $nav-active-color;
+  }
 }
 .typeface {
   display: grid;
   grid-gap: 2em;
+  margin-bottom: 2em;
+  margin-bottom: calc(2em + 10vw);
+  padding-top: 4em;
   @include bp(1024) {
     grid-template-columns: repeat(2, 1fr);
     .open {
@@ -58,7 +85,7 @@ body {
   border-radius: 50%;
   cursor: pointer;
   position: relative;
-  transition: all $duration;
+  transition: all $duration / 2;
   &:hover {
     background: red;
     transform: scale(1.2);

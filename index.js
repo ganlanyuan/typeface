@@ -107,9 +107,9 @@ switch (process.env.task) {
     serverUp();
     // watch njk files
     chokidar
-      .watch([njkDir + '/**/*.njk', '*.njk'])
+      .watch([njkDir + '/**/*.njk', njkDir + '/data.yml'])
       .on('change', file => {
-        if (_checkUnderscorePrefix(file)) {
+        if (_checkUnderscorePrefix(file) && path.basename(file) !== 'data.yml') {
           return doNunjucks(file);
         } else {
           return doNunjucks(njkDir + '/index.njk');
@@ -412,11 +412,11 @@ function doJsBundle (files) {
                 browser: true,
               }),
               buble(),
-              uglify({
-                mangle: {
-                  keep_fnames: true, // keep function name
-                }
-              }),
+              // uglify({
+              //   mangle: {
+              //     keep_fnames: true, // keep function name
+              //   }
+              // }),
             ],
           },
           outputOptions = {

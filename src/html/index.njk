@@ -3,15 +3,24 @@
 
 {% block main %}
 <main id="main" role="main" tabindex="-1">
-  <ul class="typeface">
-    {% for item in typeface %}
+  <nav class="nav">
+    <ul>
+      {% for name, array in typeface %}
+      <li><a href="#{{ name }}">{{ name | title }}</a></li>
+      {% endfor %}
+    </ul>
+  </nav>
+  {% for nav, array in typeface %}
+  <ul class="typeface" id="{{ nav }}">
+    {% for item in array %}
       <li class="c-{{ item | nameToUrl }}" style="font-family: '{{ item }}';">
         <button class="i-expand"></button>
-        <div class="display has-tools" contenteditable>{{ item }} <input class="tool" type="range" min="-10" max="10" data-step="10" data-base="120" name="" id=""></div>
+        <div class="display has-tools" contenteditable>{{ item | replace('_', ' ') }} <input class="tool" type="range" min="-10" max="10" data-step="10" data-base="120" name="" id=""></div>
         <div class="title has-tools" contenteditable>{{ get('title') }} <input class="tool" type="range" min="-10" max="10" data-step="3" data-base="42" name="" id=""></div>
         <div class="p has-tools" contenteditable><div>{{ get('para') }}</div> <input class="tool" type="range" min="-10" max="10" data-step="1.5" data-base="16" name="" id=""></div>
       </li>
     {% endfor %}
   </ul>  
+  {% endfor %}
 </main>
 {% endblock %}

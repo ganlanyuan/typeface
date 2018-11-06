@@ -4,367 +4,383 @@ brand: "Typeface"
 
 typeface:
   # sans-serif
-- Arca Majora 3 
-- Alegreya Sans SC 
-- Cabin 
-- akrobat 
-- Abel 
-- canter 
-- Bricklane 
-- Ginora Sans 
-- Geomancy 
-- genome 
-- Flex Display 
-- Flamenco 
-- Exo 
-- Exo 2 
-- Code Bold 
-- Code Light 
-- champagne & limousines 
-- clear sans 
-- aleo 
-- Nasalization 
-- Antaro 
-- Jockey One 
-- Intro 
-- Intro Inline 
-- Open Sans 
-- Roboto Condensed 
-- Infinity 
-- IBM Plex Sans 
-- IBM Plex Sans Condensed 
-- IBM Plex Mono 
-- Luna 
-- lovelo 
-- nougatine 
-- Nexa Bold 
-- Nexa Light 
-- DecoNeue 
-- League Gothic 
-- League Spartan 
-- Lato 
-- KiloGram 
-- Kano 
-- Metropolis 1920 
-- Rosario 
-- Kimberley 
-- Grumaz 
-- Yanone Kaffeesatz 
-- PT Sans Narrow 
-- Luchador 
-- Titillium Web 
-- The Dodger Inky 
-- Stout 
-- Conthrax 
-- Daredevil 
-- Stereofidelic 
-- square sans serif 7 
-- Penzance 
-- Boston Traffic 
-- Dublin 
-- Trio 
-- Blade Runner Movie Font 
-- BatmanForeverAlternate 
-- Ethnocentric 
-- Promesh 
-- Alt Retro Black
-- Alt Retro Bold
-- Alt Retro Light
-- Alt Retro Regular
-- Alt Retro Thin
-- Raleway 
-- Labor Union 
+  sans-serif:
+  - Arca Majora 3 
+  - 'Intro ' 
+  - Intro Inline 
+  - Apex Mk2 
+  - Alegreya Sans SC 
+  - Cabin 
+  - Ginora Sans 
+  - Geomancy 
+  - Manrope
+  - genome 
+  - Flex Display 
+  - Exo 
+  - Exo 2 
+  - Code Bold 
+  - Code Light 
+  - champagne & limousines 
+  - clear sans 
+  - aleo 
+  - Nasalization 
+  - Antaro 
+  - Jockey One 
+  - Open Sans 
+  - Infinity 
+  - IBM Plex Sans 
+  - IBM Plex Mono 
+  - nougatine 
+  - Nexa Bold 
+  - Nexa Light 
+  - DecoNeue 
+  - League Spartan 
+  - Lato 
+  - KiloGram 
+  - Kano 
+  - Rosario 
+  - Kimberley 
+  - Grumaz 
+  - Luchador 
+  - Titillium Web 
+  - The Dodger Inky 
+  - Daredevil 
+  - square sans serif 7 
+  - Penzance 
+  - Boston Traffic 
+  - Dublin 
+  - Blade Runner Movie Font 
+  - BatmanForeverAlternate 
+  - Ethnocentric 
+  - Promesh 
+  - Raleway 
+  - Osaka-Sans Serif 
+  - Die Nasty 
+  - Gang of Three 
+  - Helsinki 
+  - Nuku Nuku 
+  - Cunia 
+  - Maveryk 
+  - Maskoolin 
+  - Mandorlato 
+  - Hansief 
+  - geratis caps 
+  - FREE FAT FONT 
+  - Quantum 
+  - Ridgeline 201 
+  - Sagoma 
+  - Cabal 
+  - RF Krabuler 
+  - Hometown 
+  - Hemi Head 
+  - Foo 
+  - Acrylic Hand Thick
+  - Bricklane 
+  - 57 Futura 
 
-- Vincent 
-- Stockport 
-- halfomania 
-- 57 Futura 
-- 518- 
-- Apex Mk2 
-- Osaka-Sans Serif 
-- Die Nasty 
-- Gang of Three 
-- Helsinki 
-- Nuku Nuku 
-- Cunia 
-- Ethna 
-- Facon 
-- Maveryk 
-- Maskoolin 
-- Mandorlato 
-- Lokka Lite 
-- High Life Lite 
-- Hansief 
-- geratis caps 
-- Geizer 
-- FREE FAT FONT 
-- Neon One 
-- pogo 
-- Potra 
-- Quantum 
-- Ridgeline 201 
-- Sagoma 
-- Cabal 
-- RF Krabuler 
-- Hometown 
-- Le Super Serif 
-- Hemi Head 
-- Foo 
-- Oswald 
-- build 
-- Medula One 
-- bebas neue 
-- Calama 
-- Calcio-Demo 
-- MD Tall 2 
-- Six Caps 
-- Tulpen One 
-- Wire One 
-- Badrick 
-- Searocks 
-- Manrope
+  # sans-serif condensed
+  condensed:
+  - Geizer 
+  - pogo 
+  - High Life Lite 
+  - Vincent 
+  - Stockport 
+  - Stout 
+  - Yanone Kaffeesatz 
+  - PT Sans Narrow 
+  - League Gothic 
+  - IBM Plex Sans Condensed 
+  - Roboto Condensed 
+  - akrobat 
+  - Abel 
+  - canter 
+  - Oswald 
+  - build 
+  - Medula One 
+  - bebas neue 
+  - Calama 
+  - Calcio-Demo 
+  - MD Tall 2 
+  - Six Caps 
+  - Tulpen One 
+  - Wire One 
+  - Badrick 
+  - Searocks 
 
-# round corner
-- Reef 
-- Maxwell 
-- ColorTube 
-- Sphere Sans 
+  # sans-serif extended
+  extended:
+  - Conthrax 
 
+  # round corner
+  round:
+  - Reef 
+  - Maxwell 
+  - Flamenco 
+  - Lokka Lite 
+  - Luna 
+  - 518- 
+  - ColorTube 
+  - Sphere Sans 
+  - Smoothdron 
+  - Alt Retro Black
+  - Alt Retro Bold
 
-
-# scripts
-- Braxton 
-- Cadeck Script 
-- Angeline
-- Angelica 
-- First Dance 
-- Fantastic 
-- Echizen 
-- Dreamst Script 
-- Dellayla Script 
-- Decorator 
-- Dealina Script 
-- Catchy Script 
-- cindy love 
-- Mimosa Script 
-- Metal Ink 
-- Mengano 
-- Julliyus Script 
-- Marseline 
-- Marhaban 
-- Mailitta 
-- Mailitta two
-- Harmonie Script 
-- Perfetto 
-- Mycheell Script 
-- Mothica 
-- Prilliya Script 
-- Shania 
-- Sellya Script 
-- Santana 
-- Saltery Regular 
-- Saltery Regular Rough 
-- Saltery Alternate 
-- Saltery Alternate Rough 
-- Wild Zova Free 
-- Oraqle Script 
-- Moonshot-Regular 
-- Moonshot-Oblique 
-- Alinea Typeface 
-- Atmosphere 
-- Briberra 
-- Emmeline Regular 
-- Endoell 
-- Restless 
-- wish 
-- Kingsland 
-- Mindfully 
-- Naira 
-- Nocturne 
-- Paperland 
-- Natsuki FREE 
-- Dandelion Script 
-- Anthem 
-- Blue Planet 
-- HandsDown 
-- Daisy Script 
-- Invitation Script 
-- Israquella 
-- 08 Underground 
-- Adelline 
-- Amandella Script 
-- Anisha Free 
-- Mur 
-- Atziluth 
-- Auttie Script 
-- Bestalia 
-- Kite Script 
-- Queenland 
-- Silhouetto 
-- Sugar Heart 
-- Wish You 
-- Beacon 
-- Wild Youth 
-- Peomy Regular 
-- Odachi 
-- Sanös Brush Light Font 
-- Brusher 
-- kust 
-- Ampad Brush 
-- Fjord-free 
-- Plume 
-- Salted Mocha 
-- Summer Hearts 
-- Macbeth 
-- Selima 
-- Edo SZ 
-- Rowo Typeface 
-- Rustico 
-- RElapse 
-- Ocean Six 
-- Besom 2 
-- leafy 
-- Westfalia 
-- Leira Lite 
-- Austra Lite 
-- Avene 
-- Banaue 
-- Aloja Ligh 
-- Espa 
-- Chalk- 
-- Deepo 
-- Prokopis 
-- TW Zesty Orange 
-- young love 
-- LS Hymned
-- Dreamer 
-- Cookies 
-- Lashes and Rose 
-- bhatoshine caps
-- Bhatoshine 
-- Blessed Appetite 
-- Blessed Mamaliga 
-- alyssum blossom 
-- Cupcakia 
-- Orange Grove 
-- nutella 
-- BoB 
-- Kristale Script 
-- Stay Wildy 
-- KLSweetBerriesPlump 
-- KLSweetBerries
-- Acrylic Hand Thick
-- Blastrick Normal 
-- Blastrick Special 
-- Barakah Regular 
-- Amazinga 
-
-# script lines
-- Madgue 
-- Goodline 
-- Romantic 
-- Garment District 
-- Routen 
-- Nickainley 
-- Courtney 
-- Tatima 
-- Virginity Script 
-- Tiny House Typeface 
-- Telepia Script 
-- Steady Script 
-- StarDust 
-- Restuner 
-- Forestelly 
-- Clover 
-- Horizon 
-- Hunter River 
-- Mellow Line 
-- Darcey Oliver 
-- Andrea 
-- Huh Girls 
-- Caalifah Script 
-- Russell 
-- Blessed Script 
-- Gama Hand 
-- Paddy 
-- Simple Game 
-- Mike Ferrari_16017 
-- Hitman 
-- Hatterline 
-- League Script Thin 
-- Antifont 
-- SecretService 
-- Sugar Candy 
-- Tuesday Night 
-- Sidaghis 
+  # lines
+  lines:
+  - lovelo 
+  - Metropolis 1920 
+  - Trio 
+  - Alt Retro Light
+  - Alt Retro Regular
+  - Alt Retro Thin
+  - halfomania 
+  - Neon One 
+  - Potra 
 
 
-# serif
-- Caudex 
-- casloncp 
-- casloncpswash 
-- Rufina 
-- Playfair Display 
-- Libre Caslon Text 
-- Noto Serif 
-- Volkhov 
-- Soria 
-- IBM Plex Serif 
-- Saint George 
-- Farewell Angelina 
-- Palash 
-- Merriweather 
-- Silverfake 
-- Serpent 
-- Roboto Slab 
-- Carvino 
+  # serif
+  serif:
+  - Caudex 
+  - casloncp 
+  - Le Super Serif 
+  - Ethna 
+  - casloncpswash 
+  - Rufina 
+  - Playfair Display 
+  - Libre Caslon Text 
+  - Noto Serif 
+  - Volkhov 
+  - Soria 
+  - IBM Plex Serif 
+  - Saint George 
+  - Farewell Angelina 
+  - Palash 
+  - Merriweather 
+  - Silverfake 
+  - Serpent 
+  - Roboto Slab 
+  - Labor Union 
+  - Carvino 
+  - Caringin 
+  - Blastrick Normal 
+  - Blastrick Special 
+  - Barakah Regular 
+  - Amazinga 
 
-# others
-- Husky Stash 
-- Bearley 
-- AlphaRuler 
-- Habel 
-- DrippyWatercolor 
-- Dream Orphans 
-- Creepster 
-- casper 
-- Adouliss 
-- Montclar 
-- Little Day Typeface 
-- Vanett 
-- SunnyDino 
-- Summer Joy 
-- Manbow 
-- Heavy Heap 
-- Brains 
-- FriztonRegular 
-- Vice & Virtues 
-- Burnstown Dam 
-- Dripping Cool 
-- ice age font 
-- Karmatic Arcade 
-- Tabu Font 
-- Gravity 
-- Lily Bloom Regular 
-- Krait
-- South Rose 
-- Airmole 
-- Adamas 
-- accent 
-- BD Pipe 
-- Budmo 
-- Crack Man 
-- Judo 
-- Smoothdron 
-- Salted Monthoers 
-- Caringin 
-- extras 
-- StarDust 
-- Mothica sty2 
-- Forestellyswashes
-- Echizen Swash
-- Darcey Oliver Swash
-- love
+
+  # script
+  script:
+  - Braxton 
+  - Cadeck Script 
+  - Angeline
+  - Angelica 
+  - First_Dance 
+  - Fantastic 
+  - Echizen 
+  - Dreamst Script 
+  - Dellayla Script 
+  - Decorator 
+  - Dealina Script 
+  - Catchy Script 
+  - cindy love 
+  - Mimosa Script 
+  - Metal Ink 
+  - Mengano 
+  - Julliyus Script 
+  - Marseline 
+  - Marhaban 
+  - Mailitta 
+  - Mailitta two
+  - Harmonie Script 
+  - Perfetto 
+  - Mycheell Script 
+  - Mothica 
+  - Prilliya Script 
+  - Shania 
+  - Sellya Script 
+  - Santana 
+  - Saltery Regular 
+  - Saltery Regular Rough 
+  - Saltery Alternate 
+  - Saltery Alternate Rough 
+  - Oraqle Script 
+  - Moonshot-Regular 
+  - Moonshot-Oblique 
+  - Wild Zova Free 
+  - Alinea Typeface 
+  - Atmosphere 
+  - Briberra 
+  - Emmeline Regular 
+  - Endoell 
+  - Restless 
+  - wish 
+  - Kingsland 
+  - Mindfully 
+  - Naira 
+  - Nocturne 
+  - Paperland 
+  - Natsuki FREE 
+  - Dandelion Script 
+  - Anthem 
+  - Blue Planet 
+  - HandsDown 
+  - Daisy Script 
+  - Invitation Script 
+  - Israquella 
+  - 08 Underground 
+  - Adelline 
+  - Amandella Script 
+  - Anisha Free 
+  - Mur 
+  - Atziluth 
+  - Auttie Script 
+  - Bestalia 
+  - Kite Script 
+  - Queenland 
+  - Silhouetto 
+  - Sugar Heart 
+  - Wish You 
+  - Beacon 
+  - Wild Youth 
+  - Peomy Regular 
+  - Odachi 
+  - Sanös Brush Light Font 
+  - Brusher 
+  - kust 
+  - Ampad Brush 
+  - Fjord-free 
+  - Plume 
+  - Salted Mocha 
+  - Summer Hearts 
+  - Macbeth 
+  - Selima 
+  - Edo SZ 
+  - Rowo Typeface 
+  - Rustico 
+  - RElapse 
+  - Ocean Six 
+  - Besom 2 
+  - leafy 
+  - Westfalia 
+  - Leira Lite 
+  - Austra Lite 
+  - Avene 
+  - Banaue 
+  - Aloja Ligh 
+  - Espa 
+  - Chalk- 
+  - Deepo 
+  - Prokopis 
+  - TW Zesty Orange 
+  - young love 
+  - LS Hymned
+  - Dreamer 
+  - Cookies 
+  - Lashes and Rose 
+  - bhatoshine caps
+  - Bhatoshine 
+  - Blessed Appetite 
+  - Blessed Mamaliga 
+  - alyssum blossom 
+  - Cupcakia 
+  - Orange Grove 
+  - nutella 
+  - BoB 
+  - Kristale Script 
+  - Stay Wildy 
+  - KLSweetBerriesPlump 
+  - KLSweetBerries
+
+  # script lines
+  script line:
+  - Madgue 
+  - Goodline 
+  - Romantic 
+  - Garment District 
+  - Routen 
+  - Nickainley 
+  - Courtney 
+  - Tatima 
+  - Virginity Script 
+  - Tiny House Typeface 
+  - Telepia Script 
+  - Steady Script 
+  - StarDust 
+  - Restuner 
+  - Forestelly 
+  - Clover 
+  - Horizon 
+  - Hunter River 
+  - Mellow Line 
+  - Darcey Oliver 
+  - Andrea 
+  - Huh Girls 
+  - Caalifah Script 
+  - Russell 
+  - Blessed Script 
+  - Gama Hand 
+  - Paddy 
+  - Simple Game 
+  - Mike Ferrari_16017 
+  - Hitman 
+  - Hatterline 
+  - League Script Thin 
+  - Antifont 
+  - SecretService 
+  - Sugar Candy 
+  - Tuesday Night 
+  - Sidaghis 
+
+  # others
+  others:
+  - Husky Stash 
+  - Stereofidelic 
+  - Facon 
+  - Bearley 
+  - AlphaRuler 
+  - Habel 
+  - DrippyWatercolor 
+  - Dream Orphans 
+  - Creepster 
+  - casper 
+  - Adouliss 
+  - Montclar 
+  - Little Day Typeface 
+  - Vanett 
+  - SunnyDino 
+  - Summer Joy 
+  - Manbow 
+  - Heavy Heap 
+  - Brains 
+  - FriztonRegular 
+  - Vice & Virtues 
+  - Burnstown Dam 
+  - Dripping Cool 
+  - ice age font 
+  - Karmatic Arcade 
+  - Tabu Font 
+  - Gravity 
+  - Lily Bloom Regular 
+  - Krait
+  - South Rose 
+  - Airmole 
+  - Adamas 
+  - accent 
+  - BD Pipe 
+  - Budmo 
+  - Crack Man 
+  - Judo 
+  - Salted Monthoers 
+
+  # decoration
+  decoration:
+  - extras 
+  - StarDust 
+  - Mothica sty2 
+  - Forestellyswashes
+  - Echizen Swash
+  - Darcey Oliver Swash
+  - love
 
 
 
