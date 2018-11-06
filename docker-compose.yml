@@ -10,7 +10,7 @@ services:
     volumes:
       - .:/www/web/
     working_dir: /www/web
-    container_name: startpoint
+    container_name: typeface
     entrypoint: sh /www/start.sh
     stdin_open: true
     tty: true
