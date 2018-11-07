@@ -15,9 +15,9 @@
     {% for item in array %}
       <li class="c-{{ item | nameToUrl }}" style="font-family: '{{ item }}';">
         <button class="i-expand"></button>
-        <div class="display has-tools" contenteditable>{{ item | replace('_', ' ') }} <input class="tool" type="range" min="-10" max="10" data-step="10" data-base="120" name="" id=""></div>
-        <div class="title has-tools" contenteditable>{{ get('title') }} <input class="tool" type="range" min="-10" max="10" data-step="3" data-base="42" name="" id=""></div>
-        <div class="p has-tools" contenteditable><div>{{ get('para') }}</div> <input class="tool" type="range" min="-10" max="10" data-step="1.5" data-base="16" name="" id=""></div>
+        <div class="display has-tools"><div contenteditable>{{ item | replace('_', ' ') }}</div> <input class="tool" type="range" min="-10" max="10" data-step="10" data-base="120" name="" id=""></div>
+        <div class="title has-tools"><div contenteditable>{{ get('title') }}</div> <input class="tool" type="range" min="-10" max="10" data-step="3" data-base="42" name="" id=""></div>
+        <div class="p has-tools"><div contenteditable>{{ get('para') }}</div> <input class="tool" type="range" min="-10" max="10" data-step="1.5" data-base="16" name="" id=""></div>
       </li>
     {% endfor %}
   </ul>  
